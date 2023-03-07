@@ -4,7 +4,7 @@
 #If you see '> # Enter on the next line', be sure the next line remains indented two spaces.
 
 #REQUIRED
-org_name: Project Example
+org_name: Buuu Foundation
 org_summary: > # Enter your summary on the next line. Be sure to indent by two spaces.
   A mobile-friendly Github Pages template designed to help grassroots nonprofits get a website online quickly
 org_full_description: > # Enter your description on the next line. Be sure to indent by two spaces.
@@ -12,20 +12,20 @@ org_full_description: > # Enter your description on the next line. Be sure to in
 
 #OPTIONAL
 #Non US-address support coming soon
-org_general_email_inbox: your-email@somedomain.com
-org_street_address: 1355 Market Street #Please include suite number on the line below
-org_address_suite: Suite 900
-org_city: San Francisco
-org_state: CA
+org_general_email_inbox: thebuuufoundation@gmail.com
+org_street_address: On GST Road, Guduvanchery
+org_address_suite: Safaa Apartments
+org_city: Kanchipuram
+org_state: Tamil Nadu
 org_zip: > # Enter zip on next line. Be sure to indent by two spaces.
-  94103
+  603202
 org_phone: > # Enter phone on next line. Be sure to indent by two spaces.
-  (123) 456-7890
+  (91) 6379275847
 
 #SOCIAL MEDIA
-org_twitter_username: smartergiving
-org_facebook_username: smartergiving
-org_instagram_username:
+#org_twitter_username: smartergiving
+org_facebook_username: thebuuufoundation@gmail.com
+org_instagram_username: buuu_foundation
 
 #TAX STATUS
 #Your site will display an appropriate message below the Donate section
@@ -33,13 +33,13 @@ org_instagram_username:
 fiscal_sponsor: false
 fiscal_sponsor_name:
 #If your organization is currently registered as a 501(c)3 organization, enter true below. Otherwise enter false. Enter false if you have a fiscal sponsor.
-is_501c3: true
+is_501c3: false
 
 #ONLINE DONATIONS & EMAIL SIGNUPS
 #To use these services, enter the required usernames. For further instructions, consult the README file.
 #If you do not wish to use a service, simply remove everything after the colon (:), leaving the item blank
-donorbox_campaign_name: free-template-demo
-tinyletter_username: interestingnonprofits
+donorbox_campaign_name: May2023-Animal_Welfare
+tinyletter_username: BuuuFoundation
 
 #SEARCH ENGINES
 #Changing this next setting to 'true' will allow your site to be indexed by search engines (like Google)
@@ -47,7 +47,7 @@ publish: false
 
 #COLOR SCHEME
 #Select one of the five color schemes (default, one, two, three, or four)
-color_scheme: default
+color_scheme: one
 
 # *** DO NOT CHANGE ANYTHING BELOW THIS LINE ***
 
