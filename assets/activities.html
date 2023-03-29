@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thank You to Our Contributors</title>
+    <style>
+      /* Styling for the thank you message */
+      .thankyou {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+      }
+      /* Styling for the list of contributors */
+      .contributors {
+        font-size: 20px;
+        margin-top: 30px;
+      }
+      /* Styling for the list items */
+      li {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="thankyou">
+      <h1>Thank You to Our Contributors!</h1>
+      <p>We couldn't do it without you!</p>
+    </div>
+    <div class="contributors">
+      <h2>List of Contributors:</h2>
+      <ul id="contributor-list">
+        <!-- The list of contributors will be populated dynamically with JavaScript -->
+      </ul>
+    </div>
+    <script>
+      // An array of contributor names
+      const contributors = ["John", "Jane", "Bob", "Sarah", "Mike"];
+      
+      // Get the list element from the DOM
+      const list = document.getElementById("contributor-list");
+      
+      // Loop through the array of contributors and create list items for each one
+      for (let i = 0; i < contributors.length; i++) {
+        const listItem = document.createElement("li");
+        listItem.textContent = contributors[i];
+        list.appendChild(listItem);
+      }
+    </script>
+  </body>
+</html>
