@@ -1,9 +1,64 @@
+<!DOCTYPE html>
 <html>
   <head>
-    Events
+    <title>Events</title>
+    <style>
+      /* Styling for the container */
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+      }
+      /* Styling for the image slider */
+      .slider {
+        display: flex;
+        animation: slide 10s linear infinite;
+      }
+      /* Styling for the images */
+      .slider img {
+        width: 100%;
+        height: auto;
+      }
+      /* Animation keyframes */
+      @keyframes slide {
+        0% {
+          transform: translateX(0);
+        }
+        20% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(-100%);
+        }
+        45% {
+          transform: translateX(-100%);
+        }
+        50% {
+          transform: translateX(-200%);
+        }
+        70% {
+          transform: translateX(-200%);
+        }
+        75% {
+          transform: translateX(-300%);
+        }
+        95% {
+          transform: translateX(-300%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+    </style>
   </head>
   <body>
-    testing 
-    <h3> testing again </h3>
+    <div class="container">
+      <div class="slider">
+        <img src="image1.jpeg" alt="Image 1">
+        <img src="image2.jpeg" alt="Image 2">
+        <img src="image3.jpeg" alt="Image 3">
+        <img src="image4.jpeg" alt="Image 3">
+      </div>
+    </div>
   </body>
 </html>
