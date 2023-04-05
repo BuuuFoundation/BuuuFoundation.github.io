@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Events</title>
+    <title>Sliding Images</title>
     <style>
       /* Styling for the container */
       .container {
@@ -18,6 +18,8 @@
       .slider img {
         width: 100%;
         height: auto;
+        object-fit: cover;
+        object-position: center;
       }
       /* Animation keyframes */
       @keyframes slide {
@@ -54,10 +56,10 @@
   <body>
     <div class="container">
       <div class="slider">
-        <img src="/assets/image1.jpeg" alt="Image 1">
-        <img src="/assets/image2.jpeg" alt="Image 2">
-        <img src="/assets/image3.jpeg" alt="Image 3">
-        <img src="/assets/image4.jpeg" alt="Image 3">
+        <img src="/assets/image1.jpg" alt="Image 1">
+        <img src="/assets/image2.jpg" alt="Image 2">
+        <img src="/assets/image3.jpg" alt="Image 3">
+        <img src="/assets/image4.jpg" alt="Image 4">
       </div>
     </div>
   </body>
